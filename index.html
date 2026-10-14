@@ -137,6 +137,31 @@
           </table>
         </div>
       </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__intro">
+          <p class="eyebrow">For a question or a kind hello</p>
+          <h2 id="contact-title">Let’s keep in <em>touch.</em></h2>
+          <p>If one of these photographs stayed with you, I’d love to hear about it. Leave a note and preview your message before you send it another way.</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="button" type="submit">Preview your note <span aria-hidden="true">↗</span></button>
+          <p class="form-note">This is a portfolio demo; your note is not sent or stored.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
     </main>
   </body>
 </html>
