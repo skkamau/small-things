@@ -27,9 +27,8 @@
       <text x="450" y="177" text-anchor="middle">Introductory paragraph</text>
       <text x="450" y="205" text-anchor="middle">Emphasized photography quote</text>
       <text x="155" y="315">Short description and a strong statement</text>
-      <text x="155" y="975">Portrait image</text>
-      <text x="355" y="990">SK — student and photographer</text>
-      <text x="355" y="1020">Short biography and photography interests</text>
+      <text x="155" y="990">SK — student and photographer</text>
+      <text x="155" y="1020">Short biography and photography interests</text>
       <text x="155" y="1143">• Nature • Street • Portraits</text>
       <text x="155" y="1170">• Sunsets • Everyday moments</text>
       <text x="155" y="1273">Photo                         Year                         Type</text>
@@ -46,7 +45,6 @@
       <rect x="155" y="645" width="210" height="55" rx="4"/>
       <rect x="155" y="720" width="210" height="55" rx="4"/>
       <rect x="155" y="795" width="210" height="55" rx="4"/>
-      <rect x="155" y="987" width="170" height="50" rx="4"/>
       <rect x="260" y="1415" width="340" height="30" rx="4"/>
       <rect x="260" y="1465" width="340" height="30" rx="4"/>
       <rect x="260" y="1515" width="340" height="40" rx="4"/>
