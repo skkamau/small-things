@@ -5,13 +5,13 @@
 
 ## About the Project
 
-**Small Things** is a photography portfolio website that focuses on simple everyday moments. The planned website includes a short introduction, a list of favorite photographs, information about the photographer, a photo information table, and a contact form.
+**Small Things** is a photography portfolio website that focuses on simple everyday moments. The website includes a short introduction, a list of favorite photographs, information about the photographer, a photo information table, and a contact form.
 
-The project is being created to practice the basic concepts of **HTML** and **CSS**. This repository currently contains the project README; the website files will be added as development progresses.
+The project is being created to practice the basic concepts of **HTML** and **CSS**. The gallery currently uses Pexels stock photographs; photographer credits and source links are recorded in [images/SOURCES.md](images/SOURCES.md).
 
 ## Features
 
-Planned features include:
+Features include:
 
 - Simple photography portfolio
 - Favorite photos section
@@ -33,7 +33,7 @@ Planned features include:
 
 ## Project Structure
 
-Planned file structure:
+Current file structure:
 
 ```text
 small-things/
@@ -41,20 +41,20 @@ small-things/
 |-- styles.css
 |-- README.md
 |-- images/
-|   |-- photo-1.svg
-|   |-- photo-2.svg
-|   |-- photo-3.svg
-|   |-- photo-4.svg
-|   |-- photo-5.svg
-|   |-- photo-6.svg
-|   `-- photographer.svg
+|   |-- photo-1.jpg
+|   |-- photo-2.jpg
+|   |-- photo-3.jpg
+|   |-- photo-4.jpg
+|   |-- photo-5.jpg
+|   |-- photo-6.jpg
+|   `-- SOURCES.md
 `-- design/
     `-- wireframe.svg
 ```
 
 ## Project Setup Instructions
 
-Once the website files have been added:
+To view the website locally:
 
 1. Clone the repository:
 
@@ -70,11 +70,11 @@ This is a static HTML and CSS project. No package installation or build step is 
 
 ## Live Site on GitHub Pages
 
-**Planned site URL:** [Small Things on GitHub Pages](https://skkamau.github.io/small-things/)
+**Site URL:** [Small Things on GitHub Pages](https://skkamau.github.io/small-things/)
 
-**Deployment status:** Not published yet. The link will become available after the website files are added and GitHub Pages is configured.
+GitHub Pages is configured to publish from the **main** branch and **/ (root)** folder. Pushing changes to `main` triggers a new deployment.
 
-To publish the site after adding `index.html`, `styles.css`, and the image assets:
+To configure the same publishing settings:
 
 1. Open this repository on GitHub.
 2. Go to **Settings > Pages**.
@@ -84,10 +84,13 @@ To publish the site after adding `index.html`, `styles.css`, and the image asset
 
 ## HTML Elements Used
 
-The project will practice:
+The project uses:
 
 - Headings (`h1`, `h2`)
 - Paragraphs (`p`)
+- Introductory header (`header`)
+- Content grouping (`div`)
+- Inline author name (`span`)
 - Images (`img`)
 - Links (`a`)
 - Ordered lists (`ol`)
@@ -100,7 +103,7 @@ The project will practice:
 
 ## CSS Styling Used
 
-The stylesheet will demonstrate:
+The stylesheet demonstrates:
 
 - Element selectors
 - Colors and background colors
@@ -120,4 +123,4 @@ This project is intended to develop beginner web development skills and demonstr
 
 Copyright (c) 2026 **SK**. All rights reserved.
 
-No open-source license has been selected yet. This repository does not currently grant an open-source license to its code, photographs, or other assets. License information will be updated when the author selects a license.
+No open-source license has been selected for the project code. The downloaded gallery photographs belong to their respective photographers and are covered by the [Pexels license](https://www.pexels.com/license/), rather than the project's copyright notice.
