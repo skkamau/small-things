@@ -1,7 +1,4 @@
-/* Small Things
-   Simple photography website stylesheet */
 
-/* Style the whole page */
 * {
     box-sizing: border-box;
 }
@@ -16,7 +13,7 @@ body {
 }
 
 
-/* Main heading */
+
 h1 {
     color: brown;
     text-align: center;
@@ -26,7 +23,7 @@ h1 {
 }
 
 
-/* Section headings */
+
 h2 {
     color: darkgreen;
     border-bottom: 2px solid #d6dfd0;
@@ -35,26 +32,26 @@ h2 {
 }
 
 
-/* Paragraphs */
+
 p {
     font-size: 16px;
     line-height: 1.7;
 }
 
 
-/* Strong text */
+
 strong {
     color: #75432f;
 }
 
 
-/* Italic text */
+
 em {
     color: darkslategray;
 }
 
 
-/* Images */
+
 body img {
     width: 300px;
     max-width: 100%;
@@ -68,7 +65,7 @@ body img {
 }
 
 
-/* Ordered and unordered lists */
+
 ol,
 ul {
     background-color: white;
@@ -78,13 +75,12 @@ ul {
 }
 
 
-/* List items */
 li {
     margin-bottom: 25px;
 }
 
 
-/* Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -93,7 +89,7 @@ table {
 }
 
 
-/* Table headings and cells */
+
 th,
 td {
     border: 1px solid #ddd5c8;
@@ -102,28 +98,28 @@ td {
 }
 
 
-/* Table heading */
+
 th {
     background-color: darkgreen;
     color: white;
 }
 
 
-/* Links */
+
 a {
     color: #28543a;
     text-decoration: underline;
 }
 
 
-/* Link hover effect */
+
 a:hover {
     color: brown;
     text-decoration: underline;
 }
 
 
-/* Form */
+
 form {
     width: 400px;
     max-width: 100%;
@@ -134,7 +130,7 @@ form {
 }
 
 
-/* Form inputs */
+
 input,
 textarea {
     width: 100%;
@@ -146,7 +142,6 @@ textarea {
     font-size: 16px;
 }
 
-/* Highlight the field being filled in */
 input:focus,
 textarea:focus {
     outline: 2px solid darkgreen;
@@ -154,7 +149,7 @@ textarea:focus {
 }
 
 
-/* Submit button */
+
 input[type="submit"] {
     width: 150px;
     background-color: darkgreen;
@@ -165,13 +160,12 @@ input[type="submit"] {
 }
 
 
-/* Button hover */
+
 input[type="submit"]:hover {
     background-color: green;
 }
 
 
-/* Footer */
 footer {
     background-color: #263f30;
     color: white;
@@ -182,12 +176,11 @@ footer {
 }
 
 
-/* Make footer paragraph white */
 footer p {
     color: white;
 }
 
-/* Emphasize the author's name in the footer */
+
 .author-name {
     font-weight: bold;
 }
