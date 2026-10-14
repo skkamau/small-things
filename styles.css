@@ -2,11 +2,17 @@
    Simple photography website stylesheet */
 
 /* Style the whole page */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: lightgray;
-    color: black;
+    background-color: #f7f3ec;
+    color: #333333;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 
@@ -15,27 +21,30 @@ h1 {
     color: brown;
     text-align: center;
     text-decoration: underline;
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
 
 /* Section headings */
 h2 {
     color: darkgreen;
-    border-bottom: 2px solid darkgreen;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #d6dfd0;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 
 
 /* Paragraphs */
 p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 
 /* Strong text */
 strong {
-    color: darkred;
+    color: #75432f;
 }
 
 
@@ -46,12 +55,16 @@ em {
 
 
 /* Images */
-img {
+body img {
     width: 300px;
+    max-width: 100%;
     height: 200px;
     object-fit: cover;
-    border: 3px solid black;
-    margin: 10px;
+    border: 1px solid #ddd5c8;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #00000015;
+    display: block;
+    margin: 10px 0;
 }
 
 
@@ -59,20 +72,21 @@ img {
 ol,
 ul {
     background-color: white;
-    padding: 20px 40px;
-    border: 1px solid gray;
+    padding: 25px 40px;
+    border: 1px solid #ddd5c8;
+    border-radius: 8px;
 }
 
 
 /* List items */
 li {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 
 /* Table */
 table {
-    width: 70%;
+    width: 100%;
     border-collapse: collapse;
     background-color: white;
     margin-top: 20px;
@@ -82,8 +96,8 @@ table {
 /* Table headings and cells */
 th,
 td {
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid #ddd5c8;
+    padding: 12px;
     text-align: left;
 }
 
@@ -97,14 +111,14 @@ th {
 
 /* Links */
 a {
-    color: blue;
-    text-decoration: none;
+    color: #28543a;
+    text-decoration: underline;
 }
 
 
 /* Link hover effect */
 a:hover {
-    color: red;
+    color: brown;
     text-decoration: underline;
 }
 
@@ -112,18 +126,31 @@ a:hover {
 /* Form */
 form {
     width: 400px;
+    max-width: 100%;
     background-color: white;
-    padding: 20px;
-    border: 1px solid gray;
+    padding: 25px;
+    border: 1px solid #ddd5c8;
+    border-radius: 8px;
 }
 
 
 /* Form inputs */
 input,
 textarea {
-    width: 90%;
-    padding: 8px;
+    width: 100%;
+    padding: 10px;
     margin-top: 5px;
+    border: 1px solid #b7c4b2;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+/* Highlight the field being filled in */
+input:focus,
+textarea:focus {
+    outline: 2px solid darkgreen;
+    outline-offset: 2px;
 }
 
 
@@ -134,6 +161,7 @@ input[type="submit"] {
     color: white;
     border: none;
     padding: 10px;
+    cursor: pointer;
 }
 
 
@@ -145,11 +173,12 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: #263f30;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
 }
 
 
