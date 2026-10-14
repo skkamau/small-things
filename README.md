@@ -36,7 +36,7 @@ Planned features include:
 Planned file structure:
 
 ```text
-small-things-kept/
+small-things/
 |-- index.html
 |-- styles.css
 |-- README.md
@@ -59,8 +59,8 @@ Once the website files have been added:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/skkamau/small-things-kept.git
-   cd small-things-kept
+   git clone https://github.com/skkamau/small-things.git
+   cd small-things
    ```
 
 2. Open the project folder in **Visual Studio Code**, or another text editor.
@@ -70,7 +70,7 @@ This is a static HTML and CSS project. No package installation or build step is 
 
 ## Live Site on GitHub Pages
 
-**Planned site URL:** [Small Things on GitHub Pages](https://skkamau.github.io/small-things-kept/)
+**Planned site URL:** [Small Things on GitHub Pages](https://skkamau.github.io/small-things/)
 
 **Deployment status:** Not published yet. The link will become available after the website files are added and GitHub Pages is configured.
 
